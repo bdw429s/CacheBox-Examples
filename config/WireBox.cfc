@@ -27,9 +27,9 @@ Description :
 		};
 		
 		// Map Bindings below
-		//map("widgetService").to("model.widgetService");
-		//map("widgetService").to("model.widgetService").inCacheBox(timeout=30); // Expires after 30 minutes
-		//map("widgetService").to("model.widgetService").inCacheBox(timeout=0); // Never expires
+		map("widgetService").to("model.widgetService");
+//		map("widgetService").to("model.widgetService").inCacheBox(timeout=30); // Expires after 30 minutes
+//		map("widgetService").to("model.widgetService").inCacheBox(timeout=0); // Never expires
 
 	}	
 </cfscript>

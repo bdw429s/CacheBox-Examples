@@ -38,6 +38,7 @@
 		<cfargument name="rc">
 		<cfargument name="prc">
 				
+
 		<cfset prc.widgetService = getModel("widgetService")>
 		
 		<cfset event.setView(name="example3")>

@@ -26,9 +26,6 @@ function configure(){
 		defaultLayout = "Layout.Main.cfm"
 	};
 	
-	cacheBox = {
-	};
-	
 	//Register interceptors as an array, we need order
 	interceptors = [
 		 //SES
