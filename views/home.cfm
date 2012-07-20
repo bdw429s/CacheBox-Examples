@@ -32,7 +32,7 @@
 				<li><a href="#event.buildLink("general.example4")#">Simple Cache API</a></li>
 				<li><a href="#event.buildLink("general.example5")#">Cache API with Locking</a></li>
 				<li><a href="#event.buildLink("general.example6")#">Creating Custom Caches</a></li>
-				<li><a href="#event.buildLink("general.example7")#">Custom Eviction Policy</a></li>
+				<li><a href="#event.buildLink("general.example7")#">Custom Stores and Eviction Policy</a></li>
 			</ul>
 			
 			<h3>Registered Event Handlers</h3>

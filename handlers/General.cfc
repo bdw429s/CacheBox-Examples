@@ -86,4 +86,19 @@
 		<cfset event.setView(name="example6")>
 	</cffunction>
 		
+	<cffunction name="example7" returntype="void" output="false">
+		<cfargument name="event">
+		<cfargument name="rc">
+		<cfargument name="prc">
+				
+		<cfset prc.sizeAwareCache = cacheBox.getCache("sizeAwareCache")>
+		<cfset prc.sizeAwareCache.set("big1","BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG ")>
+		<cfset prc.sizeAwareCache.set("big2","BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG BIG ")>
+		<cfset prc.sizeAwareCache.set("small1","small")>
+		<cfset prc.sizeAwareCache.set("small2","small")>
+		<cfset prc.sizeAwareCache.set("small3","small")>
+				
+		<cfset event.setView(name="example7")>
+	</cffunction>
+		
 </cfcomponent>

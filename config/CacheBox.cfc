@@ -81,7 +81,18 @@ Description :
 						DSN = "JDBCStore",
 						table = "totallyTubularCacheTable"
 					}
-				}
+				}/*,
+				sizeAwareCache = {
+					provider = "coldbox.system.cache.providers.CacheBoxColdBoxProvider",
+					properties = {
+						evictionPolicy = "model.cache.largestItem",
+						evictCount = 1,
+						maxObjects = 3,
+						objectStore = "model.cache.sizeAwareJDBCStore",
+						DSN = "JDBCStore",
+						table = "sizeAwareCacheTable"
+					}
+				}*/
 
 			}		
 		};
